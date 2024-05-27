@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Art Salon</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Nail Art Salon</h1>
+    </header>
+    <nav>
+        <a href="#prices">Prices</a>
+        <a href="#appointment">Make an Appointment</a>
+        <a href="#gallery">Nail Art Gallery</a>
+    </nav>
+    <section id="prices">
+        <h2>Prices</h2>
+        <ul>
+            <li>Basic Manicure - $20</li>
+            <li>Deluxe Manicure - $35</li>
+            <li>Basic Pedicure - $25</li>
+            <li>Deluxe Pedicure - $40</li>
+            <li>Gel Nails - $50</li>
+            <li>Nail Art - Starting at $10</li>
+        </ul>
+    </section>
+    <section id="appointment">
+        <h2>Make an Appointment</h2>
+        <form class="appointment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="basic-manicure">Basic Manicure</option>
+                <option value="deluxe-manicure">Deluxe Manicure</option>
+                <option value="basic-pedicure">Basic Pedicure</option>
+                <option value="deluxe-pedicure">Deluxe Pedicure</option>
+                <option value="gel-nails">Gel Nails</option>
+                <option value="nail-art">Nail Art</option>
+            </select>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="gallery">
+        <h2>Nail Art Gallery</h2>
+        <img src="nail1.jpg" alt="Nail Art 1">
+        <img src="nail2.jpg" alt="Nail Art 2">
+        <img src="nail3.jpg" alt="Nail Art 3">
+    </section>
+    <footer>
+        <p>&copy; 2024 Nail Art Salon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
